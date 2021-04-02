@@ -1,14 +1,31 @@
+
+# Steps to create code deployment 
+* Create a target EC2 instance
+* Create IAM role for codedeploy
+* Your code repo can be S3 bucket or github repo
+* Create deployment group: oneatatime, halfatatime, allatonce.
+* Start to deploy: create a deploy application, choose your destination EC2 instance or staging or production or multiple group. 
+* Deploy new application: choose deployment group, pick up git repo (rbmiao) to connect, and repo name, and commit ID.
+* finish these steps, aws starts deployment.
+
+# Trouble shooting: 
+* when codeployment agent has been installed.
+* git commit ID is correct
+* /var/log/codedeploy
+
+
+
 # codedeploylab
 This lab is to show how a AWS Code Pipeline is created using AWS Code Build, AWS Code Deploy.
 
 
 This amazon web services AWS Code Deploy Setup (EC2, IAM, Github) tutorial shows how to have an AWS EC2 instances host your App that is in your Github repository.
 
-#### Learn AWS Code Deploy Setup with a demo. 
-#### Different attributes of AWS CodeDeploy.
-#### Specifying EC2, Github & IAM role for CodeDeploy. 
-#### Checking CodeDeploy logs.
-#### Understand CodeDeploy pricing.
+* Learn AWS Code Deploy Setup with a demo. 
+* Different attributes of AWS CodeDeploy.
+* Specifying EC2, Github & IAM role for CodeDeploy. 
+* Checking CodeDeploy logs.
+* Understand CodeDeploy pricing.
 
 In this AWS Code Deploy Setup tutorial will give an overview of Amazon lambda and its features. AWS CodeDeploy is a service that automates code deployments to Amazon EC2 instances. Code Deploy is a great way to configure multiple different applications such as DEV, QA, PROD and deploy to them each individually. You can deploy from Github to your servers or S3 for convenience. You also have a feature of rolling deployments so that if one server fails a deployment the others won't try to update and remain online. This feature will help minimize downtime.
 
