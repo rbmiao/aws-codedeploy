@@ -35,9 +35,9 @@ You can deploy a nearly unlimited variety of application content, such as code, 
 
 AWS CodeDeploy makes it easier for you to:
 
-#### Rapidly release new features.
-#### Update AWS Lambda function versions.
-#### Avoid downtime during application deployment.
+* Rapidly release new features.
+* Update AWS Lambda function versions.
+* Avoid downtime during application deployment.
 
 Handle the complexity of updating your applications, without many of the risks associated with error-prone manual deployments.
 
